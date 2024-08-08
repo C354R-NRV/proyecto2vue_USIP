@@ -1,0 +1,271 @@
+{
+  "pacientes": [
+    {
+      "id": "1",
+      "nombre": "Carlos Pérez",
+      "telefono": "72241234",
+      "direccion": "Av. Mariscal Santa Cruz 123, La Paz"
+    },
+    {
+      "id": "2",
+      "nombre": "María Marquez",
+      "telefono": "73415678",
+      "direccion": "Calle Warnes 456, Santa Cruz"
+    },
+    {
+      "id": "3",
+      "nombre": "Jorge rojas",
+      "telefono": "68110661",
+      "direccion": "Av. Villazón 789, Cochabamba"
+    },
+    {
+      "id": "4",
+      "nombre": "Laura García",
+      "telefono": "73446789",
+      "direccion": "Calle España 101, Santa Cruz"
+    },
+    {
+      "id": "5",
+      "nombre": "Ricardo Morales",
+      "telefono": "72242123",
+      "direccion": "Calle Comercio 202, La Paz"
+    },
+    {
+      "id": "6",
+      "nombre": "Fernanda López",
+      "telefono": "74411234",
+      "direccion": "Av. América 303, Cochabamba"
+    },
+    {
+      "id": "7",
+      "nombre": "Gabriel Sánchez",
+      "telefono": "73434567",
+      "direccion": "Calle Sucre 404, Santa Cruz"
+    },
+    {
+      "id": "8",
+      "nombre": "Patricia Rojas",
+      "telefono": "72243567",
+      "direccion": "Calle Sagárnaga 505, La Paz"
+    },
+    {
+      "id": "9",
+      "nombre": "Alejandro Flores",
+      "telefono": "74412345",
+      "direccion": "Av. Heroínas 606, Cochabamba"
+    },
+    {
+      "id": "10",
+      "nombre": "Mónica Chávez",
+      "telefono": "73445678",
+      "direccion": "Calle Libertad 707, Santa Cruz"
+    },
+    {
+      "nombre": "Samantha Rojas",
+      "telefono": "68110662",
+      "direccion": "kupini",
+      "id": "2o_TtaY"
+    }
+  ],
+  "medicos": [
+    {
+      "id": "1",
+      "nombre": "Dra. Silva Rodríguez",
+      "especialidad": "Ortodoncista",
+      "telefono": "77234567"
+    },
+    {
+      "id": "2",
+      "nombre": "Dr. Miguel Castro",
+      "especialidad": "Odontologo",
+      "telefono": "77345678"
+    },
+    {
+      "id": "3",
+      "nombre": "Dra. Patricia Morales",
+      "especialidad": "Endodoncista",
+      "telefono": "77456789"
+    },
+    {
+      "id": "4",
+      "nombre": "Dr. Roberto Suarez",
+      "especialidad": "Implantología",
+      "telefono": "77567890"
+    },
+    {
+      "id": "5",
+      "nombre": "Dra. Laura Villpando",
+      "especialidad": "Odontopediatra",
+      "telefono": "77678901"
+    },
+    {
+      "nombre": "Dra. Damaris Poma R.",
+      "especialidad": "Endodoncista",
+      "telefono": 68110663,
+      "id": "8ul6_Rj"
+    }
+  ],
+  "citas": [
+    {
+      "id": "1",
+      "pacienteId": "1",
+      "medicoId": "1",
+      "fecha": "2024-08-10",
+      "hora": "11:20",
+      "costo": "120",
+      "solicitud": "Curacion"
+    },
+    {
+      "id": "2",
+      "pacienteId": "2",
+      "medicoId": "2",
+      "fecha": "2024-08-08",
+      "hora": "09:00",
+      "costo": "200",
+      "solicitud": "Revisión endodoncia",
+      "paciente": {
+        "id": "2",
+        "nombre": "María Marquez",
+        "telefono": "73415678",
+        "direccion": "Calle Warnes 456, Santa Cruz"
+      },
+      "medico": {
+        "id": "2",
+        "nombre": "Dr. Miguel Castro",
+        "especialidad": "Periodoncia",
+        "telefono": "77345678"
+      }
+    },
+    {
+      "id": "3",
+      "pacienteId": "3",
+      "medicoId": "3",
+      "fecha": "2024-08-07",
+      "hora": "21:00",
+      "costo": "50",
+      "solicitud": "Extraccion de muela"
+    },
+    {
+      "id": "6",
+      "pacienteId": "6",
+      "medicoId": "1",
+      "fecha": "2024-10-01",
+      "hora": "11:20",
+      "costo": "500",
+      "solicitud": "Curacion fractura canino"
+    },
+    {
+      "id": "7",
+      "pacienteId": "7",
+      "medicoId": "2",
+      "fecha": "2024-08-15",
+      "hora": "20:00",
+      "costo": "240",
+      "solicitud": "Cirugia menor"
+    },
+    {
+      "id": "8",
+      "pacienteId": "8",
+      "medicoId": "3",
+      "fecha": "2024-09-18",
+      "hora": "15:00",
+      "costo": "650",
+      "solicitud": "Puenteo de ligas"
+    },
+    {
+      "id": "9",
+      "pacienteId": "9",
+      "medicoId": "4",
+      "fecha": "2024-10-10",
+      "hora": "14:30",
+      "costo": "30",
+      "solicitud": "Sellado de fisura"
+    },
+    {
+      "id": "10",
+      "pacienteId": "10",
+      "medicoId": "5",
+      "fecha": "2024-08-10",
+      "hora": "21:30",
+      "costo": "300",
+      "solicitud": "Florizacion"
+    },
+    {
+      "medicoId": "8ul6_Rj",
+      "pacienteId": "2o_TtaY",
+      "costo": 707,
+      "solicitud": "Curacion",
+      "fecha": "2024-08-07",
+      "hora": "13:02",
+      "id": "5QB6X7Y",
+      "paciente": {
+        "nombre": "Samantha Rojas",
+        "telefono": "68110662",
+        "direccion": "kupini",
+        "id": "2o_TtaY"
+      },
+      "medico": {
+        "nombre": "Dra. Damaris Poma R.",
+        "especialidad": "Endodoncista",
+        "telefono": 68110663,
+        "id": "8ul6_Rj"
+      }
+    },
+    {
+      "medicoId": "8ul6_Rj",
+      "pacienteId": "8",
+      "solicitud": "Curacion fractura canino",
+      "costo": 245,
+      "fecha": "2024-08-11",
+      "hora": "18:37",
+      "id": "RnK8cx1"
+    },
+    {
+      "medicoId": "4",
+      "pacienteId": "7",
+      "solicitud": "Extraccion de muela",
+      "costo": 63,
+      "fecha": "2024-08-06",
+      "hora": "17:52",
+      "id": "kl6be1F",
+      "paciente": {
+        "id": "7",
+        "nombre": "Gabriel Sánchez",
+        "telefono": "73434567",
+        "direccion": "Calle Sucre 404, Santa Cruz"
+      },
+      "medico": {
+        "id": "4",
+        "nombre": "Dr. Roberto Suarez",
+        "especialidad": "Implantología",
+        "telefono": "77567890"
+      }
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "2",
+      "name": "Damaris Poma",
+      "usuario": "dpoma",
+      "password": "123456",
+      "role": "medico",
+      "token": "sdffalsdf82weids8dfasdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "1",
+      "name": "Cesar Rojas Valero",
+      "usuario": "crojas",
+      "password": "123456",
+      "role": "admin",
+      "token": "s8dfalsdf82w2324wdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "3",
+      "name": "Luz Quisbert",
+      "usuario": "lquisbert",
+      "password": "123456",
+      "role": "secretaria",
+      "token": "s8dfalsdf82fsds8dfasdfsd9f0w9sdfs"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Practica2 Vue3
+Nombre(s) de integrante(s):
+- Cesar Nilton Rojas Valero | CI: 6062066lp
+Pasos para iniciar el proyecto
+1) npm install
+2) cd db
+3) json-server --watch db.json --port 4000
+4) npm run serve
